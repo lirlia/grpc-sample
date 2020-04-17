@@ -30,6 +30,8 @@ python greeter_server.py
 python greeter_client.py
 ```
 
+## change proto
+
 if you want to change `proto` please run cmd
 
 `python -m grpc_tools.protoc -I.--python_out=. --grpc_python_out=. helloworld.proto`
